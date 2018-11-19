@@ -1,7 +1,4 @@
-/* body{
-    background-color:#56667F;
-} */
-
+/* 
 a{
     opacity: 0;
     pointer-events: none;
@@ -15,4 +12,16 @@ div{
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     min-width:285px;
     box-shadow: inset 0 -20px 0 0 white !important;
+} */
+
+a:-webkit-any-link{
+    visibility:hidden;
+}
+
+p{
+    text-align: center;
+}
+
+html{
+    font-family: 'Anton', sans-serif;
 }
